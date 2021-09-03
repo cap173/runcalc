@@ -18,15 +18,20 @@ const About = () => {
 				<p>
 					This app is intended to help users calculate the time splits needed to
 					reach their running time goals. It was created using Next.js, React,
-					and CSS. The code for this project can be found on Github.
+					and CSS. The code for this project can be found on{" "}
+					<a className={styles.links} href="https://github.com/cap173/runcalc">
+						{" "}
+						Github
+					</a>
+					.
 				</p>
 				<p>
-					The app was created by Chris Paniagua, a Computer Science graduate of
-					Georgetown University. The inspiration for this project came after a
-					run when Chris wanted an easier way to calculate split times for times
-					and distances that are more difficult to calculate mentally e.g.,
-					running 1.5 mi. in 12&apos; 15&quot; with .5 mi. splits. You can learn
-					more about Chris and his experiences by visiting his{" "}
+					The app was created by Chris Paniagua, a graduate of Georgetown
+					University. The inspiration for this project came after a run when
+					Chris wanted an easier way to calculate split times for times and
+					distances that are more difficult to calculate mentally e.g., running
+					1.5 mi. in 12&apos; 15&quot; with .5 mi. splits. You can learn more
+					about Chris and his experiences by visiting his{" "}
 					<a
 						className={styles.links}
 						href="https://www.linkedin.com/in/christopher-paniagua-0a732a325/"
