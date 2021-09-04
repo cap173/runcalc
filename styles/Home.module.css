@@ -15,8 +15,8 @@
 	left: 232px;
 	top: 125px;
 	margin: 0 auto;
+	min-width: 300px;
 	width: 95%;
-	min-width: 500px;
 	max-width: 800px;
 	min-height: 100px;
 	height: auto;
@@ -111,7 +111,7 @@
 }
 
 .flex_item {
-	width: 450px;
+	width: 95%;
 	margin: 10px;
 }
 
@@ -159,4 +159,10 @@
 
 .links:hover {
 	color: rgb(0, 153, 255);
+}
+
+@media only screen and (max-width: 600px) {
+	.flex_container {
+		flex-direction: column;
+	}
 }
